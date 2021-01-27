@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../GeekHub2020-online"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../English"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "GeekHub2020-online"
+	}
+}

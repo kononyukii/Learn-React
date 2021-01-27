@@ -1,0 +1,41 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  top: 0px;
+  padding: 20px;
+  background-color:#14a2cdbe;
+  text-align: center;
+  font-size: large;
+}
+.content {
+  margin: 10px auto;
+  padding: 0px 10px;
+  width: 500px;
+  border: 2px solid #14a2cdbe;
+  text-align: justify;
+}
+.footer {
+  padding: 20px;
+  background-color: #14a2cdbe;
+  text-align: center;
+  font-size: large;
+}
+h1, h2 {
+  text-align: center;
+}
+.man {
+  width: 200px;
+  float: left;
+  margin: 5px;
+}
+.handle {
+  width: 200px;
+  float: right;
+  margin: 5px;
+}

@@ -1,0 +1,8 @@
+.item > img {
+  height: 15vh;
+  width: 100%;
+}
+
+.info {
+  padding: 10px;
+}

@@ -1,0 +1,18 @@
+.item {
+    padding: 5px;
+}
+
+.message {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.like {
+    font-size: 14px;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }

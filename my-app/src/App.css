@@ -1,0 +1,17 @@
+.wrap {
+  display: grid;
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  grid-template-areas:
+    "h h "
+    "n c ";
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 1vh;
+}
+
+.content {
+  grid-area: c;
+  background-color: #5f5e5e;
+}
