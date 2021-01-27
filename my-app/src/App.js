@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./Components/Header/Header";
-import Navbar from "./Components/Navbar/Navbar";
-import Profile from "./Components/Profile/Profile";
-import Dialogs from "./Components/Dialogs/Dialogs";
-import News from "./Components/News/News";
-import Music from "./Components/Music/Music";
-import Settings from "./Components/Settings/Settings";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
+import Dialogs from "./components/Dialogs/Dialogs";
+import News from "./components/News/News";
+import Music from "./components/Music/Music";
+import Settings from "./components/Settings/Settings";
 import { BrowserRouter, Route } from "react-router-dom";
 
 function App(props) {
@@ -18,12 +18,12 @@ function App(props) {
         <div className="content">
           <Route
             path="/profile"
-            render={() => <Profile posts={props.posts} />}
+            render={() => <Profile state={props.state.profile} />}
           />
           <Route
             path="/dialogs"
             render={() => (
-              <Dialogs messages={props.messages} users={props.users} />
+              <Dialogs state={props.state.dialogs} />
             )}
           />
           <Route path="/news" component={News} />
