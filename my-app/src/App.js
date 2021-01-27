@@ -30,6 +30,9 @@ function App(props) {
           <Route path="/music" component={Music} />
           <Route path="/settings" component={Settings} />
         </div>
+        <div>
+          <p>test</p>
+        </div>
       </div>
     </BrowserRouter>
   );
